@@ -4,8 +4,8 @@ const bot = new Discord.Client();
 const yourID = "174565176492687361"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "-createrole"
 let initialMessage = `**İlişkili rolü almak için aşağıdaki mesajlara tepki verin. Rolü kaldırmak isterseniz, reaksiyonunuzu kaldırmanız yeterlidir.**`;
-const roles = ["💻24/7💻", "🎨Tasarımcı🎨", "🎮Oyuncu🎮"];
-const reactions = ["💻", "🖌", "🎮"];
+const roles = ["💻24/7💻", "🎨Tasarımcı🎨", "🎮Oyuncu🎮", "P.A.V.Y.O.N.L.A.N.D.I.K"];
+const reactions = ["💻", "🖌", "🎮" ,"🌟"];
 const botToken = ("NDU5NzY1ODUyNTMxODUxMjY0.DhIEcA.jYQV0P0tOHtrIF-4i4gC962_8mw");
 bot.login(botToken);
 
