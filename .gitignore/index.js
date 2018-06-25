@@ -15,7 +15,7 @@ if (roles.length !== reactions.length) throw "Roller listesi ve reaksiyon listes
 function generateMessages(){
     var messages = [];
     messages.push(initialMessage);
-    for (let role of roles) messages.push(`Almak için aşağıya basınıs **"${role}"** role!`); //DONT CHANGE THIS
+    for (let role of roles) messages.push(`**"${role}"** Rolu almak için aşağıya icon'a basınıs`); //DONT CHANGE THIS
     return messages;
 }
 
