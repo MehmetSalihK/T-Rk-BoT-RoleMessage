@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const setupCMD = "-createrole"
 let initialMessage = `**İlişkili rolü almak için aşağıdaki mesajlara tepki verin. Rolü kaldırmak isterseniz, reaksiyonunuzu kaldırmanız yeterlidir.**`;
-const roles = ["💻24/7💻", "🎨Tasarımcı🎨", "🎮Oyuncu🎮", "P.A.V.Y.O.N.L.A.N.D.I.K"];
+const roles = ["💻24/7💻", "🎨Tasarımcı🎨", "🎮Oyuncu🎮", "TÜRK|DISCO"];
 const reactions = ["💻", "🖌", "🎮" ,"🌟"];
 const botToken = ("NDU5NzY1ODUyNTMxODUxMjY0.DhNCyg.lrFYf29_FpFDiKRgEiuMRAFRzbA");
 bot.login(botToken);
@@ -15,7 +15,7 @@ if (roles.length !== reactions.length) throw "Roller listesi ve reaksiyon listes
 function generateMessages(){
     var messages = [];
     messages.push(initialMessage);
-    for (let role of roles) messages.push(`**"${role}"** Rolu almak için aşağıya icon'a basınıs`); //DONT CHANGE THIS
+    for (let role of roles) messages.push(`**"${role}"** Rolu almak için aşağıya icon'a basınız`); //DONT CHANGE THIS
     return messages;
 }
 
