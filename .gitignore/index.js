@@ -1,4 +1,4 @@
-const setupCMD = "!createrole"
+const setupCMD = "-createrole"
 let initialMessage = `**İlişkili rolü almak için aşağıdaki mesajlara tepki verin. Rolü kaldırmak isterseniz, reaksiyonunuzu kaldırmanız yeterlidir.**`;
 const roles = ["💻24/7💻", "🎨Tasarımcı🎨", "🎮Oyuncu🎮", "TÜRK|DISCO"];
 const reactions = ["💻", "🖌", "🎮", "🌟"];
