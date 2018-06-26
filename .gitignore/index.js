@@ -5,7 +5,7 @@ const setupCMD = "-createrole"
 let initialMessage = `**İlişkili rolü almak için aşağıdaki mesajlara tepki verin. Rolü kaldırmak isterseniz, reaksiyonunuzu kaldırmanız yeterlidir.**`;
 const roles = ["💻24/7💻", "🎨Tasarımcı🎨", "🎮Oyuncu🎮", "TÜRK|DISCO"];
 const reactions = ["💻", "🖌", "🎮" ,"🌟"];
-const botToken = ("NDU5NzY1ODUyNTMxODUxMjY0.DhNCyg.lrFYf29_FpFDiKRgEiuMRAFRzbA");
+const botToken = ("NDU5NzY1ODUyNTMxODUxMjY0.DhOYGA.8ZFINZM20oe7U5-3tKyEVrXg4tE");
 bot.login(botToken);
 
 //If there isn't a reaction for every role, scold the user!
